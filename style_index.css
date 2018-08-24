@@ -1,0 +1,125 @@
+/*
+style.css
+----------
+By NouNours0784
+*/
+
+@font-face
+{
+    font-family: 'GoodDogRegular';
+    src: url('police/gooddog/GoodDog-webfont.eot');
+    src: url('police/gooddog/GoodDog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/gooddog/GoodDog-webfont.woff') format('woff'),
+         url('police/gooddog/GoodDog-webfont.ttf') format('truetype'),
+         url('police/gooddog/GoodDog-webfont.svg#GoodDogRegular') format('svg');
+}
+
+#logo-bmw
+{
+	float: left;
+	border-radius: 10px;
+}
+
+#logo-bmw2
+{
+	float: right;
+	border-radius: 10px;
+}
+
+body
+{
+	margin: 20px;
+	background-image: url("image/original/background.jpg");
+	background-attachment: fixed;
+}
+
+p
+{
+	color: white;
+	font-size: 18px;
+	font-family: Comic Sans MS, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+h1
+{
+	color: red;
+	font-size: 30px;
+	font-style: italic;
+	font-family: Georgia, impact, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+header
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	width: 250px;
+}
+
+article
+{
+	min-height: 300px;
+	min-width: 450px;
+	margin: 60px;
+}		
+ 
+.navbar
+{
+	font-size: 35px;
+	font-style: italic;
+	font-family: 'GoodDogRegular', Verdana, sans-serif;
+	border: 3px white groove;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin: auto;
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.navbar:hover
+{
+	font-size: 35px;
+	font-style: italic;
+	font-family: 'GoodDogRegular', Verdana, sans-serif;
+	border: 3px blue groove;
+	border-radius: 10px;
+	color: blue;
+	background-color: white;
+}
+
+.introduction_e46
+{
+	color: aqua;
+	border: 2px white groove;
+	border-radius: 10px;
+	text-shadow: 2px 2px 4px aqua;
+}
+
+.introduction
+{
+	border: 2px aqua groove;
+	border-radius: 10px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.imageflottanteleft
+{
+    float: left;
+	border-radius: 10px;
+}
+
+.imageflottanteright
+{
+    float: right;
+	border-radius: 10px;
+}
+
+.title1
+{
+	clear: both;
+}
